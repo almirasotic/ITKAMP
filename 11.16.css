@@ -1,0 +1,36 @@
+.container {
+  background-color: blanchedalmond;
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  /*justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  align vrsi funkciju justify concent
+  */
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.div1,
+.div2,
+.div3,
+.div4 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 5px;
+}
+.div1 {
+  background-color: blue;
+}
+.div2 {
+  background-color: green;
+}
+.div3 {
+  background-color: red;
+}
+.div4 {
+  background-color: yellow;
+}
