@@ -1,0 +1,27 @@
+.prvi {
+  height: 200px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: red;
+  border-radius: 30px;
+  animation: animacija1;
+  animation-duration: 5s;
+  padding: 30px;
+  transition: 3s all ease;
+}
+.prvi:hover {
+  width: 500px;
+  background-color: cadetblue;
+  margin-top: 100px;
+  transform: rotate(30deg);
+  transform-style: unset(2deg);
+  transition: 2s;
+}
+@keyframes animacija1 {
+  from {
+    background-color: blue;
+  }
+  to {
+    background-color: rgb(46, 42, 42);
+  }
+}

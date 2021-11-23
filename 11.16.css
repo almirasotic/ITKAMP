@@ -8,10 +8,11 @@
   align-items: center;
   flex-wrap: wrap;
   align vrsi funkciju justify concent
+  alignself- samo za sebe
   */
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-direction:;
+  justify-content:;
+  align-items:;
 }
 .div1,
 .div2,
